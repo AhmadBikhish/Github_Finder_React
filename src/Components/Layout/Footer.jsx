@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Footer = () => {
     
-    const [year, setYear] = useState(new Date().getFullYear());
+    const [year] = useState(new Date().getFullYear());
 
     return (
         <footer className="footer p-3 bg-gray-700 text-primary-content footer-center">

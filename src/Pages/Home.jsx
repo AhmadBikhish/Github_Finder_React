@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import UserList from "../Components/Users/UserList";
 import UserSearch from "../Components/Users/UserSearch";
 

@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import Spinner from "../Layout/Spinner";
 import UserItem from "./UserItem";
 import GithubContext from '../../Context/Github/GithubContext';
 import { AnimatePresence, motion } from "framer-motion";
